@@ -124,7 +124,7 @@ body {
 
 @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
   .heading {
-    font-size: 1.35em; 
+    font-size: 1.10em; 
   }
 
   .content {
@@ -134,7 +134,7 @@ body {
 
 @media only screen and (device-width: 360px) and (device-height: 780px) and (-webkit-device-pixel-ratio: 3) {
   .heading {
-    font-size: 1.25em; 
+    font-size: 1.15em; 
   }
 
   .content {
@@ -144,7 +144,7 @@ body {
 
 @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
   .heading {
-    font-size: 1.45em; 
+    font-size: 1.20em; 
   }
 
   .content {
@@ -154,7 +154,7 @@ body {
 
 @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
   .heading {
-    font-size: 1.30em; 
+    font-size: 1.15em; 
   }
 
   .content {
@@ -164,7 +164,7 @@ body {
 
 @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
   .heading {
-    font-size: 1.30em;
+    font-size: 1.20em;
   }
 
   .content {
