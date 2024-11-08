@@ -83,28 +83,28 @@ body {
   }
 
   .heading {
-    width: 70%;
-    font-size: medium;
+    width: 90%;
+    font-size: larger;
     margin: 50px auto -30px auto;
   }
 
   .content {
-    width: 80%;
-    font-size: large;
-    padding: 30px 10px 15px 30px;
+    width: 90%;
+    font-size: x-large;
+    padding: 50px 15px 20px 55px;
   }
 }
 
 @media (max-width: 480px) {
   .heading {
-    width: 90%;
-    font-size: medium;
+    width: 100%;
+    font-size: larger;
     margin: 30px auto -20px auto;
   }
 
   .content {
-    width: 95%;
-    font-size: medium;
-    padding: 20px 10px 10px 20px;
+    width: 100%;
+    font-size: x-large;
+    padding: 50px 15px 20px 55px;
   }
 }
