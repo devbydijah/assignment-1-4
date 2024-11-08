@@ -13,6 +13,8 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar ul {
@@ -22,6 +24,7 @@ body {
   overflow: hidden;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .navbar li {
@@ -42,7 +45,7 @@ body {
 }
 
 .card-content {
-  margin-top: 50px; /* Adjust the position to come a bit down */
+  margin-top: 50px; 
 }
 
 .heading {
@@ -90,6 +93,7 @@ body {
     width: 90%;
     font-size: larger;
     margin: 50px auto -30px auto;
+    text-align: center; /* Center the heading text */
   }
 
   .content {
@@ -104,6 +108,7 @@ body {
     width: 100%;
     font-size: larger;
     margin: 30px auto -20px auto;
+    text-align: center;
   }
 
   .content {
