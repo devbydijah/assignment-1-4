@@ -41,11 +41,15 @@ body {
   transition: all 200ms ease-in-out;
 }
 
+.card-content {
+  margin-top: 50px; /* Adjust the position to come a bit down */
+}
+
 .heading {
   font-family: "PT Serif", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: larger;
   text-align: center;
-  border: 2px solid rgb(255, 0, 149);
+  border: 1px solid rgb(255, 0, 149); /* Reduced border width */
   border-radius: 5px;
   background-color: rgb(255, 0, 149);
   width: 20%;
@@ -57,7 +61,7 @@ body {
 .content {
   font-size: x-large;
   font-weight: 500;
-  border: 2px solid white;
+  border: 1px solid white; /* Reduced border width */
   background-color: white;
   border-radius: 5px;
   width: 25%;
