@@ -67,3 +67,44 @@ body {
   position: relative;
   z-index: 1;
 }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+  }
+
+  .navbar li {
+    float: none;
+  }
+
+  .navbar li a {
+    padding: 10px 15px;
+  }
+
+  .heading {
+    width: 50%;
+    font-size: medium;
+    margin: 50px auto -30px auto;
+  }
+
+  .content {
+    width: 70%;
+    font-size: large;
+    padding: 30px 10px 15px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    width: 70%;
+    font-size: small;
+    margin: 30px auto -20px auto;
+  }
+
+  .content {
+    width: 90%;
+    font-size: medium;
+    padding: 20px 5px 10px 20px;
+  }
+}
