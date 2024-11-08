@@ -1,0 +1,218 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(237, 243, 242);
+  font-family: 'Inter', 'Roboto', sans-serif;
+}
+
+h1 {
+  width: 268px;
+  height: 50px;
+  padding-left: 140px;
+}
+
+.wellness-logo {
+  width: 120px;
+  height: 77.17px;
+  padding-left: 120px;
+}
+
+.desktop-paragraph, .mobile-paragraph {
+  width: 460px;
+  height: 75px;
+  padding-left: 140px;
+  color: #737373;
+}
+
+#main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px;
+  height: 100vh;
+}
+
+#info-content {
+  flex: 1;
+  margin-right: 20px;
+  margin-top: 10vh;
+  padding-top: 0;
+}
+
+#form-card {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 580px;
+  height: auto;
+}
+
+#form-content {
+  width: 100%;
+  background-color: white;
+  padding: 40px 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.form-group:last-child {
+  margin-right: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  transition: border-color 0.5s ease-in-out;
+}
+
+input::placeholder, select::placeholder {
+  color: #737373;
+}
+
+input:hover, select:hover {
+  border-color: rgb(87, 205, 200);
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(87, 205, 200);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.9em;
+}
+
+footer p u {
+  color: rgb(87, 205, 200);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgb(87, 205, 200);
+  padding: 10px 0;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navbar li {
+  margin: 0 15px;
+  list-style: none;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 2px solid transparent;
+  transition: color 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+}
+
+.navbar a:hover {
+  color: rgb(87, 205, 200);
+  background-color: white;
+  border-color: white;
+}
+
+@media (max-width: 768px) {
+  .desktop-paragraph {
+    display: none;
+  }
+
+  .mobile-paragraph {
+    display: block;
+  }
+
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .navbar li {
+    flex: 0 0 auto;
+    margin: 5px 10px;
+  }
+
+  .navbar a {
+    padding: 5px 10px;
+    white-space: nowrap;
+  }
+
+  #main-content {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  #form-card {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #form-content {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  h1, .wellness-logo, .desktop-paragraph, .mobile-paragraph {
+    padding-left: 20px;
+    width: auto;
+  }
+
+  .navbar {
+    justify-content: center;
+  }
+
+  .navbar li {
+    margin: 10px 0;
+  }
+}

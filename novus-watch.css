@@ -1,0 +1,136 @@
+body {
+  background-color: rgb(167, 168, 205);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-family: "PT Serif", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(122, 122, 122); 
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white; 
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: rgb(253, 241, 181);
+  color: rgb(155, 156, 196);
+  transition: all 200ms ease-in-out;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: visible; 
+  width: 600px; 
+  margin: 20px 0; 
+  margin-top: 60px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: 300px; 
+  object-fit: cover; 
+  display: block;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px; 
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  background-color: rgb(253, 241, 181);
+  padding: 5px 10px;
+  border-radius: 5px 20px 20px 5px;
+  font-weight: bold;
+  z-index: 1; 
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  margin-top: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.content h2 .series {
+  color: rgb(122, 122, 122);
+  font-size: 0.7em; 
+  font-weight: medium;
+  margin-left: 10px; 
+}
+
+.content p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 80%;
+    margin-top: 50px;
+  }
+
+  .image-container img {
+    height: 200px;
+  }
+
+  .navbar li a {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 95%;
+    margin-top: 40px;
+  }
+
+  .image-container img {
+    height: 150px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+  }
+
+  .navbar li {
+    float: none;
+  }
+
+  .navbar li a {
+    padding: 8px 10px;
+  }
+}
