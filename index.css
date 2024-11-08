@@ -83,13 +83,13 @@ body {
   }
 
   .heading {
-    width: 50%;
+    width: 70%;
     font-size: medium;
     margin: 50px auto -30px auto;
   }
 
   .content {
-    width: 70%;
+    width: 80%;
     font-size: large;
     padding: 30px 10px 15px 30px;
   }
@@ -97,14 +97,14 @@ body {
 
 @media (max-width: 480px) {
   .heading {
-    width: 70%;
-    font-size: small;
+    width: 90%;
+    font-size: medium;
     margin: 30px auto -20px auto;
   }
 
   .content {
-    width: 90%;
+    width: 95%;
     font-size: medium;
-    padding: 20px 5px 10px 20px;
+    padding: 20px 10px 10px 20px;
   }
 }
