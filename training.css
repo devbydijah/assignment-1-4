@@ -119,6 +119,7 @@ footer p u {
 }
 
 .navbar {
+  position: sticky;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -127,6 +128,7 @@ footer p u {
   padding: 10px 0;
   z-index: 1000;
   box-sizing: border-box;
+  top: 0; /* Ensure this is set */
 }
 
 .navbar ul {
